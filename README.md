@@ -43,4 +43,5 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 
 ## Testing
-Please install redux-mock-store for tests to work: `yarn add redux-mock-store --dev`
+Please install redux-mock-store for tests to work: 
+### `yarn add redux-mock-store --dev`
