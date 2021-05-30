@@ -36,3 +36,11 @@ The page will reload if you make edits.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+## Screenshots
+![image](https://user-images.githubusercontent.com/70939416/120119263-73b2f180-c19f-11eb-8d71-eaa9414e1a80.png)
+![image](https://user-images.githubusercontent.com/70939416/120119271-7f061d00-c19f-11eb-8952-6913e62a8d7f.png)
+
+
+## Testing
+Please install redux-mock-store for tests to work: `yarn add redux-mock-store --dev`
