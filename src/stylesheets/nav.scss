@@ -9,6 +9,7 @@
 .nav__link {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   max-width: 280px;
   padding: 8px;
 
@@ -41,4 +42,75 @@
 
 .nav__link-icon {
   margin-left: 8px;
+}
+
+.nav__menu {
+  width: 302px;
+  border: 1px solid $grey-3;
+  box-shadow: 0px 2px 8px rgba($dark, 0.24);
+  border-radius: 8px;
+  line-height: 20px;
+}
+
+.nav__menu-header-heading {
+  text-transform: uppercase;
+  color: $grey-6;
+  font-weight: bold;
+  padding: 12px 9px 4px 16px;
+}
+
+.nav__menu-link {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 16px;
+
+  &:hover, &:focus {
+    background-color: $grey-1;
+  }
+
+  &:active {
+    background-color: $grey-2;
+  }
+}
+
+.nav__menu-header-text {
+  padding: 12px 9px 12px 16px;
+  font-weight: bold;
+}
+
+.nav__menu-active {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba($green, 0.1);
+  color: $dark-green;
+
+  &:hover, &:focus {
+    background-color: rgba($green, 0.2);
+  }
+}
+
+.nav__menu-active-icon {
+  font-size: 20px;
+  display: none;
+}
+
+.visible {
+  display: inline;
+}
+
+.nav__menu-link-icon {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.logout {
+  color: $red;
+}
+
+.nav__menu-separator {
+  width: 100%;
+  height: 1px;
+  background-color: $grey-3;
 }

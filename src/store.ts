@@ -8,4 +8,6 @@ const composedEnhancer = composeWithDevTools(applyMiddleware(thunkMiddleware))
 
 const store = createStore(reducer, composedEnhancer)
 
+export type RootState = ReturnType<typeof store.getState>
+
 export default store

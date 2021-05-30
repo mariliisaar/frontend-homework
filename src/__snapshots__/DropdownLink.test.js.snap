@@ -1,27 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<DropdownLink /> renders link 1`] = `
-<div
-  className="nav__link"
+exports[`render dropdown footer renders link 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
 >
-  <div
-    className="nav__link-text-wrapper"
-  >
-    <div
-      className="nav__link-text"
-    >
-      Elon Musk
-    </div>
-    <div
-      className="nav__link-subtext"
-    >
-      Viljatootja AS
-    </div>
-  </div>
-  <i
-    className="material-icons-outlined nav__link-icon"
-  >
-    settings
-  </i>
-</div>
+  <DropdownLink />
+</ContextProvider>
 `;
